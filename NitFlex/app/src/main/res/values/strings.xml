@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">NitFlex</string>
+    <string name="title">Welcome to NitFlex</string>
+    <string name="msg">Press start for our unique video</string>
+    <string name="start">Start !</string>
+    <string name="meme">toto</string>
 </resources>

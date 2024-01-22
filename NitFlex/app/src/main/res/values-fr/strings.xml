@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NitFlex</string>
+    <string name="title">Bienvenue sur Nitflex</string>
+    <string name="msg">"Appuie sur commencer pour une vidéo unique "</string>
+    <string name="start">commencer</string>
+    <string name="meme">toto</string>
+</resources>
