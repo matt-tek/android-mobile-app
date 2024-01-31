@@ -14,7 +14,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginEnd="150dp"
         android:layout_marginBottom="50dp"
-        style="@style/title"
+        style="@style/welcome"
         android:text="@string/title"
         app:layout_constraintBottom_toTopOf="@+id/instruction"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,18 +23,21 @@
 
     <TextView
         android:id="@+id/instruction"
+        style="@style/msg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
         android:layout_marginEnd="150dp"
+        android:layout_marginBottom="91dp"
         android:text="@string/msg"
-        style="@style/msg"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcome" />
 
     <Button
         android:id="@+id/start"
+        style="@style/button"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
@@ -42,10 +45,10 @@
         android:layout_marginBottom="32dp"
         android:shadowRadius="@integer/material_motion_duration_long_1"
         android:text="@string/start"
-        style="@style/button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -55,10 +58,10 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="97dp"
         android:layout_marginBottom="100dp"
+        android:contentDescription="@string/meme"
         app:layout_constraintBottom_toTopOf="@+id/start"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/instruction"
-        app:srcCompat="@drawable/meme2"
-        android:contentDescription="@string/meme" />
+        app:srcCompat="@drawable/nitflex" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">NitFlex</string>
     <string name="title">Bienvenue sur Nitflex</string>
-    <string name="msg">"Appuie sur commencer pour une vidéo unique "</string>
-    <string name="start">commencer</string>
+    <string name="msg">"Ce film n'est pas disponible!"</string>
+    <string name="start">Commencer</string>
     <string name="meme">toto</string>
 </resources>

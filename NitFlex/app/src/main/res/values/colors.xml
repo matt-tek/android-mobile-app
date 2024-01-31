@@ -4,4 +4,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="red">#FFFF0000</color>
     <color name="my_light_primary">#FFBB86FC</color>
+    <color name="blue">#0000FF</color>
 </resources>
