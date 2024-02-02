@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Base.Theme.NitFlex" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.NitFlex" parent="Theme.Material3.DayNight">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
         <item name="colorPrimary">@color/blue</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="Theme.NitFlex" parent="Base.Theme.NitFlex" />
+    <style name="nitflex" parent="Base.Theme.NitFlex" />
+
 </resources>

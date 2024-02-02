@@ -4,4 +4,6 @@
     <string name="msg">Press start for our unique video</string>
     <string name="start">Start !</string>
     <string name="meme">toto</string>
+    <string name="item1" translatable="false">Item1</string>
+    <string name="item2" translatable="false">Item2</string>
 </resources>
