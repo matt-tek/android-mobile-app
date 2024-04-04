@@ -1,1 +1,1 @@
-Some projects to test Android native developement and my UQAC projects in mobile developement made during my exchange year
+Some projects to test mobile (android and ios) native developement and my UQAC projects in mobile developement made during my exchange year
