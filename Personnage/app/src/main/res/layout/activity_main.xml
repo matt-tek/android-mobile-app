@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MainLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButtonGuerrier"
+                android:layout_width="143dp"
+                android:layout_height="wrap_content"
+                android:text="@string/guerrier" />
+
+            <RadioButton
+                android:id="@+id/radioButtonMage"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:text="@string/mage" />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/imagePerso"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/guerrier"
+            android:contentDescription="@string/imagePerso" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sauvegarder"
+            android:layout_margin="5dp"
+            android:onClick="sauvegarderProfil" />
+
+        <Button
+            android:id="@+id/newPerso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nouveau"
+            android:layout_margin="5dp"
+
+            android:onClick="nouveauProfil"/>
+
+        <Button
+            android:id="@+id/initialize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/r_initialiser"
+            android:layout_margin="5dp"
+            android:onClick="reinitialiserProfil"/>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/modifStat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/activer_la_modification_des_statistiques" />
+
+    <LinearLayout
+        android:id="@+id/modifStatLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/title"
+            android:text="@string/nom" />
+
+        <EditText
+            android:id="@+id/nom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/nom_du_personnage"
+            android:autofillHints="empty"
+            tools:ignore="LabelFor" />
+
+        <TextView
+            android:id="@+id/typePerso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/classe" />
+
+        <Switch
+            android:id="@+id/alignement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/good"
+            android:textOn="@string/bad"
+            android:textOff="@string/good"/>
+
+        <TextView
+            android:id="@+id/editPv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/title"
+            android:text="@string/pv" />
+
+        <EditText
+            android:id="@+id/pv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:autofillHints="0"
+            tools:ignore="LabelFor" />
+
+        <TextView
+            android:id="@+id/editCa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/title"
+            android:text="@string/ca" />
+
+        <EditText
+            android:id="@+id/ca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="0"
+            android:ems="10"
+            android:inputType="number"
+            tools:ignore="LabelFor" />
+
+        <TextView
+            android:id="@+id/editDmg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/title"
+            android:text="@string/dmg" />
+
+        <EditText
+            android:id="@+id/dmg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:autofillHints="empty"
+            tools:ignore="LabelFor" />
+
+        <TextView
+            android:id="@+id/magicPts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/point_de_magie"
+            style="@style/title"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/pm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="0"
+            android:ems="10"
+            android:inputType="number"
+            tools:ignore="LabelFor"
+            tools:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

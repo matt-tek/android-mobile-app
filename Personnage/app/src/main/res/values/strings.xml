@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Personnage</string>
+    <string name="guerrier">Guerrier</string>
+    <string name="mage">Mage</string>
+    <string name="sauvegarder">Sauvegarder</string>
+    <string name="nouveau">Nouveau</string>
+    <string name="r_initialiser">Réinitialiser</string>
+    <string name="activer_la_modification_des_statistiques">Activer la modification des statistiques</string>
+    <string name="nom">Nom :</string>
+    <string name="nom_du_personnage">Nom du personnage</string>
+    <string name="classe">Classe :</string>
+    <string name="typePerso">Guerrier / mage a changer</string>
+    <string name="setPerso">Le personnage est-il bon ou mauvais ?</string>
+    <string name="pv">PV :</string>
+    <string name="ca">CA :</string>
+    <string name="dmg">DMG :</string>
+    <string name="point_de_magie">Point de magie</string>
+    <string name="imageperso">imagePerso</string>
+    <string name="imagePerso" />
+    <string name="good">Le personnage est bon</string>
+    <string name="bad">Le personnage est mauvais</string>
+</resources>

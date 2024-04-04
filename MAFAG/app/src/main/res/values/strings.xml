@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MAFAG</string>
+    <string name="title">"super app de MAFAG "</string>
+    <string name="choix_button">faire un choix</string>
+    <string name="item_name">microsoft</string>
+    <string name="item_link">https://www.microsoft.com</string>
+    <string name="open_button">"ouvrir "</string>
+    <string name="notifier">notifier</string>
+    <string name="facebook">facebook</string>
+    <string name="amazon">amazon</string>
+    <string name="todo">TODO</string>
+</resources>
